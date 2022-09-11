@@ -55,5 +55,5 @@ steps:
     zipAfterPublish: true
 
 - task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifactf: drop'
+  displayName: 'Publish Artifactf: test drop'
   condition: succeeded()
